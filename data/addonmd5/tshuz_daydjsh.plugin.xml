@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[tshuz_daydjsh.plugin]]></item>
+	<item id="RevisionID"><![CDATA[11391]]></item>
+	<item id="SN"><![CDATA[2013112318m02JJeLJXx]]></item>
+	<item id="RevisionDateline"><![CDATA[1359510848]]></item>
+	<item id="Data">
+		<item id="/discuz_plugin_tshuz_daydjsh_SC_GBK.xml"><![CDATA[3491f6cdaf88d7a586c565d90fd792b1]]></item>
+		<item id="/discuz_plugin_tshuz_daydjsh_SC_UTF8.xml"><![CDATA[6df7c82c2b47e1af261be300867ca3d8]]></item>
+		<item id="/discuz_plugin_tshuz_daydjsh_TC_BIG5.xml"><![CDATA[3efa5937c11cc45b2c2346416ded2257]]></item>
+		<item id="/discuz_plugin_tshuz_daydjsh_TC_UTF8.xml"><![CDATA[81f3f7988a541dfbd048c903dc58a080]]></item>
+		<item id="/tshuz_daydjsh.class.php"><![CDATA[7434adad903a065fbf3e105b85927013]]></item>
+	</item>
+</root>

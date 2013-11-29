@@ -1,0 +1,52 @@
+2013-11-14 22:56£º
+Ä¿µÄ£ºÐÞ¸ÄÓÊÏäÎÊÌâÐÞ¸Ä
+Ä¿±êÎÄ¼þ£ºtemplate/Ä£°å/home/spacecp_profile.htm
+
+<-- // Ô­ÄÚÈÝ£¬72-79 -->
+¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª
+<input type="text" name="emailnew" id="emailnew" value="$space[email]" class="px" />
+<p class="d">
+    <!--{if empty($space['newemail'])}-->
+        {lang email_been_active}
+    <!--{else}-->
+         $acitvemessage
+    <!--{/if}-->
+</p>
+<-- // ÐÞ¸ÄÎªÄÚÈÝ 72-79 -->
+¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª
+<!--{if empty($space['newemail'])}-->
+    <input type="text" name="emailnew" id="emailnew" value="$space[email]" class="px" readonly="true"/>
+    <p class="d">{lang email_been_active}(²»¿ÉÐÞ¸Ä)</p>
+<!--{else}-->
+    <input type="text" name="emailnew" id="emailnew" value="$space[email]" class="px" />
+    <p class="d"> $acitvemessage </p>
+<!--{/if}-->
+
+¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª
+
+<-- // Ô­ÄÚÈÝ 237-237 -->
+¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª
+<td>&nbsp</td>
+¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª
+<-- // ÐÞ¸ÄÎª 237-237 -->
+¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª
+<td>&nbsp; ×¢Òâ£ºÒÑÑéÖ¤ÓÊÏä²»ÄÜÐÞ¸Ä¡£&nbsp;</td>
+¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª
+
+
+
+
+
+2013-11-15 14:16
+Ä¿µÄ£ºÈ¥µô±êÌâÖÐµÄ Powered by Discuz
+Ä¿±êÎÄ¼þ£ºtemplate/Ä£°å/common/header_common.htm
+¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª
+<-- // Ô­ÄÚÈÝ µÚ6-6ÐÐ -->
+¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª
+<title><!--{if !empty($navtitle)}-->$navtitle - <!--{/if}--><!--{if empty($nobbname)}--> $_G['setting']['bbname'] - <!--{/if}--> Powered by Discuz!</title>
+¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª
+<-- // ÐÞ¸ÄÎª µÚ6-6ÐÐ -->
+¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª
+<title><!--{if !empty($navtitle)}--> $navtitle <!--{/if}--><!--{if empty($nobbname)}--> $_G['setting']['bbname'] <!--{/if}--></title>
+
+

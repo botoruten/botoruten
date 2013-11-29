@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[secdtime.plugin]]></item>
+	<item id="RevisionID"><![CDATA[5312]]></item>
+	<item id="SN"><![CDATA[2013112318sk5S54SZ4w]]></item>
+	<item id="RevisionDateline"><![CDATA[1369302216]]></item>
+	<item id="Data">
+		<item id="/app.inc.php"><![CDATA[8e48fd7c3f89e7febebf307f9cb34f29]]></item>
+		<item id="/discuz_plugin_secdtime_SC_GBK.xml"><![CDATA[ce2ac194f8bff161a4dfda097fa2c533]]></item>
+		<item id="/discuz_plugin_secdtime_SC_UTF8.xml"><![CDATA[7d6cf78f2ae494a814ecdf042c06a856]]></item>
+		<item id="/discuz_plugin_secdtime_TC_BIG5.xml"><![CDATA[a14ef7d29256b56927d43b0a60560b0c]]></item>
+		<item id="/discuz_plugin_secdtime_TC_UTF8.xml"><![CDATA[4a7ee0be19bbc4aa7b3ed5054b09fab2]]></item>
+		<item id="/secdtime.class.php"><![CDATA[54f6fdf115c98bffc3c34ad8f4c0aebe]]></item>
+		<item id="/upgrade.php"><![CDATA[c4fdd609ba962b953fba0af5e1d8b669]]></item>
+	</item>
+</root>
